@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Blog - Natasha Barekman</title>
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- Link to your custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="blog-page">
+  <!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
+	  <div class="container">
+		<a class="navbar-brand" href="#">Natasha Barekman</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+		  <ul class="navbar-nav">
+			<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+			<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+			<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+			<li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+			<li class="nav-item active"><a class="nav-link" href="blog.html">Blog</a></li>
+			<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+
+
+  <!-- Blog Header -->
+  <section class="universal-header blog-header">
+    <div class="container text-center">
+      <h1>Blog</h1>
+      <p class="lead">Sharing my thoughts and experiences</p>
+    </div>
+  </section>
+
+  <!-- Blog Content -->
+  <section class="container my-5">
+    <h2 class="text-center">Recent Posts</h2>
+    <div id="blogAccordion">
+      <!-- Post 1 -->
+      <div class="card blog-card">
+        <div class="card-header blog-card-header" id="postOne" aria-expanded="true">
+          <h5 class="mb-0">
+            <button class="btn blog-card-button" data-toggle="collapse" data-target="#collapsePostOne" aria-expanded="true" aria-controls="collapsePostOne">
+              <span>November 2024: Attending the "First Next Step" Networking Event</span>
+              <i class="fas fa-chevron-down ml-2"></i>
+            </button>
+          </h5>
+        </div>
+        <div id="collapsePostOne" class="collapse show blog-collapse" aria-labelledby="postOne" data-parent="#blogAccordion">
+          <div class="card-body blog-card-body">
+            <img src="Images/first-next-step.jpg" alt="First Next Step Networking Event" class="img-fluid blog-img mb-3">
+            <p>
+              In November 2024, I had the privilege of attending the "First Next Step" networking event, a platform designed to connect young professionals with industry leaders and innovators. The event offered workshops, keynote speeches, and one-on-one mentoring opportunities.
+            </p>
+            <p>
+              One highlight was the keynote session by an industry leader who shared invaluable insights on career growth and adapting to emerging trends. The breakout sessions allowed me to network with professionals in UX design and social media strategy, fostering meaningful connections and learning about their career journeys.
+            </p>
+            <p>
+              This event reinforced the importance of building a professional network and staying open to new opportunities. It inspired me to approach my future career with curiosity and confidence, ready to embrace the "next step."
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Post 2 -->
+      <div class="card blog-card">
+        <div class="card-header blog-card-header" id="postTwo" aria-expanded="false">
+          <h5 class="mb-0">
+            <button class="btn blog-card-button" data-toggle="collapse" data-target="#collapsePostTwo" aria-expanded="false" aria-controls="collapsePostTwo">
+              <span>April 2024: Milestone of Traveling to Country #80 - Malmö, Sweden</span>
+              <i class="fas fa-chevron-down ml-2"></i>
+            </button>
+          </h5>
+        </div>
+        <div id="collapsePostTwo" class="collapse blog-collapse" aria-labelledby="postTwo" data-parent="#blogAccordion">
+          <div class="card-body blog-card-body">
+            <img src="Images/malmo.jpg" alt="Malmö, Sweden" class="img-fluid blog-img mb-3">
+            <p>
+              Visiting Malmö, Sweden, was a milestone that marked my 80th country explored, a goal I had set years ago as part of my journey to experience the diversity and beauty of our world. Malmö’s picturesque canals, eco-friendly urban design, and rich cultural history made it an unforgettable destination.
+            </p>
+            <p>
+              The highlight of my trip was visiting the Turning Torso, a striking example of modern architecture that symbolizes Malmö’s innovation. Strolling through the old town, I discovered quaint cafes and enjoyed a fika—a cherished Swedish coffee break tradition. Traveling has always been more than just ticking off destinations; it’s about connecting with local communities, trying new cuisines, and understanding the soul of a place. Malmö left me inspired to continue seeking out these transformative experiences.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Post 3 -->
+      <div class="card blog-card">
+        <div class="card-header blog-card-header" id="postThree" aria-expanded="false">
+          <h5 class="mb-0">
+            <button class="btn blog-card-button" data-toggle="collapse" data-target="#collapsePostThree" aria-expanded="false" aria-controls="collapsePostThree">
+              <span>March 2024: Starting My Position at LAMA Lab</span>
+              <i class="fas fa-chevron-down ml-2"></i>
+            </button>
+          </h5>
+        </div>
+        <div id="collapsePostThree" class="collapse blog-collapse" aria-labelledby="postThree" data-parent="#blogAccordion">
+          <div class="card-body blog-card-body">
+            <img src="Images/starting-lama.jpg" alt="Starting at LAMA Lab" class="img-fluid blog-img mb-3">
+            <p>
+              In March 2024, I began my journey with the LAMA Lab as a Social Media Coordinator, a role that perfectly combines my skills in content creation, data analysis, and community engagement. From the very first day, I felt energized by the lab’s commitment to making science accessible to families and undergraduates.
+            </p>
+            <p>
+              One of my first projects was developing a social media strategy to promote our research studies to local communities. By analyzing past engagement trends and leveraging Instagram stories and reels, I crafted campaigns that increased participation by 30% within the first month. Beyond the metrics, I’ve learned the value of storytelling—sharing the “why” behind our research to build authentic connections. Working at LAMA Lab is not just a job; it’s an opportunity to make a tangible impact on how people perceive and interact with scientific research.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Post 4 -->
+      <div class="card blog-card">
+        <div class="card-header blog-card-header" id="postFour" aria-expanded="false">
+          <h5 class="mb-0">
+            <button class="btn blog-card-button" data-toggle="collapse" data-target="#collapsePostFour" aria-expanded="false" aria-controls="collapsePostFour">
+              <span>December 2023: Launching My Clothing Design Venture</span>
+              <i class="fas fa-chevron-down ml-2"></i>
+            </button>
+          </h5>
+        </div>
+        <div id="collapsePostFour" class="collapse blog-collapse" aria-labelledby="postFour" data-parent="#blogAccordion">
+          <div class="card-body blog-card-body">
+            <img src="Images/clothing-design.png" alt="Clothing Design" class="img-fluid blog-img mb-3">
+            <p>
+              December 2023 was a turning point in my creative journey. What started as a personal project—designing custom clothes inspired by Basquiat’s art for my partner—quickly evolved into a full-fledged venture. The initial pieces were met with so much enthusiasm from friends and family that I decided to expand, creating unique, wearable art that blends functionality with bold artistic expression.
+            </p>
+            <p>
+              Every design tells a story, whether it’s through abstract brushstrokes reminiscent of Basquiat or vibrant patterns inspired by street art. I also prioritize ethical and sustainable practices, sourcing eco-friendly fabrics and working with local artisans. This venture has allowed me to merge my passion for art and fashion while building a community of like-minded individuals who value creativity and individuality.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Post 5 -->
+      <div class="card blog-card">
+        <div class="card-header blog-card-header" id="postFive" aria-expanded="false">
+          <h5 class="mb-0">
+            <button class="btn blog-card-button" data-toggle="collapse" data-target="#collapsePostFive" aria-expanded="false" aria-controls="collapsePostFive">
+              <span>2023: What Working at Tim’s Has Taught Me</span>
+              <i class="fas fa-chevron-down ml-2"></i>
+            </button>
+          </h5>
+        </div>
+        <div id="collapsePostFive" class="collapse blog-collapse" aria-labelledby="postFive" data-parent="#blogAccordion">
+          <div class="card-body blog-card-body">
+            <img src="Images/tim-hortons.jpg" alt="Tim Hortons" class="img-fluid blog-img mb-3">
+            <p>
+              Spending three years working at Tim Hortons was more than just a job; it was a masterclass in life skills. Serving hundreds of customers daily taught me patience, adaptability, and the importance of maintaining a positive attitude even in challenging situations.
+            </p>
+            <p>
+              One of the most valuable lessons was learning to work as part of a team. Whether we were managing a morning rush or troubleshooting equipment issues, teamwork was the cornerstone of our success. I also honed my time management skills, balancing my responsibilities at Tim’s with university coursework. Looking back, those years provided me with the foundation to approach every challenge with resilience and a collaborative mindset.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Footer -->
+<footer class="footer">
+  <div class="container d-flex justify-content-between align-items-center">
+    <!-- Footer Text -->
+    <div class="footer-text">
+      <p>&copy; 2024 Natasha Barekman&nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; 
+        <a href="contact.html" class="text-light">Contact</a> &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp; 
+        <a href="docs/Portfolio_Design_and_Development_Process.pdf" class="text-light" target="_blank">Process</a>
+      </p>
+    </div>
+    <!-- Social Media Links -->
+    <div class="social-icons">
+      <a href="https://github.com/nbarekman117" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/natasha-barekman-685aa8258/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://instagram.com/tashi.barekman" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="mailto:natashabarekman@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+<script src="js/navbar.js"></script>
