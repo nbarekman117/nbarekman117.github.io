@@ -1,0 +1,53 @@
+/*  Modal Styles  */
+.portfolio-modal .modal-dialog {
+    max-width: 60%;
+    margin: auto;
+}
+
+.portfolio-modal .modal-content {
+    border-radius: 15px;
+    background-color: var(--background-grey);
+    color: var(--text-color);
+    padding: 20px;
+}
+
+.portfolio-modal .modal-header {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border-bottom: none;
+    border-radius: 15px 15px 0 0;
+}
+
+.portfolio-modal .modal-header .btn-close {
+    background-color: var(--text-color);
+    color: var(--primary-color);
+}
+
+.portfolio-modal img {
+    width: 100%;
+    max-width: 800px;
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+.portfolio-modal .modal-body {
+    text-align: center;
+}
+
+.portfolio-modal .modal-body p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.portfolio-modal.fade .modal-dialog {
+    transform: scale(0.8);
+    transition: transform 0.3s ease-out;
+}
+
+.portfolio-modal.show .modal-dialog {
+    transform: scale(1);
+}
