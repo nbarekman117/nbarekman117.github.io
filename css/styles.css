@@ -212,23 +212,6 @@ a:hover {
   margin-top: 20px; 
 }
 
-/* Progress Bars */
-.progress {
-  background-color: var(--background-grey);
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
-  height: 25px;
-}
-
-.progress-bar {
-  color: var(--text-color);
-  font-size: 1rem;
-  text-align: center;
-  line-height: 25px;
-  border-radius: 12px;
-  transition: width 0.4s ease-in-out;
-}
-
 /* Home Page */
 body.home-page {
   background: url('../Images/Body Backgrounds/body-background-2.png') no-repeat;
