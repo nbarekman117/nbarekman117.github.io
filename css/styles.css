@@ -1053,6 +1053,132 @@ footer {
     border-radius: 5px;
   }
 
+  /* Portfolio Sub Page */
+/* Illumiventory Case Study Page Specific Styles */
+.illumiventory-page {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header Styling */
+.illumiventory-header {
+    background: linear-gradient(135deg, #2c3e50, #4a69bd);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.illumiventory-header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.illumiventory-header p {
+    font-size: 1.2rem;
+}
+
+/* Section Styling */
+.illumiventory-section {
+    padding: 50px 0;
+}
+
+.illumiventory-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Problem Statement */
+.problem-statement {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.problem-statement p {
+    font-size: 1.1rem;
+}
+
+/* Research & Empathy */
+.research-section {
+    background-color: #e9ecef;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+.research-section img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Wireframing & Prototyping */
+.wireframing-section {
+    background-color: #2c3e50;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.wireframing-section img {
+    max-width: 80%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Final UI Design */
+.final-ui-section {
+    background-color: #ffffff;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.final-ui-section img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Key Takeaways */
+.key-takeaways {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.key-takeaways ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.key-takeaways li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer a:hover {
+    color: #f8f9fa;
+}
+
+	
   /* About Page Adjustments */
   .about-content img {
     width: 90%;

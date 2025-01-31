@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Illumiventory</title>
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- Link to your custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="portfolio-page">
+  <!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
+	  <div class="container">
+		<a class="navbar-brand" href="#">Natasha Barekman</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+		  <ul class="navbar-nav">
+			<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+			<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+			<li class="nav-item active"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+			<li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+			<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+			<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+
+    <!-- Portfolio Header -->
+    <section class="universal-header portfolio-header">
+        <div class="container text-center py-5">
+            <h1>Illumiventory</h1>
+            <p class="lead">A UX/UI Case Study on Inventory Management</p>
+        </div>
+    </section>
+	
+  <!-- Problem Statement -->
+  <section class="container my-5 p-4 bg-light rounded shadow">
+    <h2 class="text-center">The Challenge</h2>
+    <p>Many non-profit organizations rely on outdated, manual inventory tracking methods, leading to inefficiencies, difficulty in locating items, and a lack of visibility for available resources. The primary issue was that volunteers and staff had no standardized process for tracking donations, leading to frequent mismanagement and frustration.</p>
+    <p>Furthermore, the existing process heavily relied on handwritten logs and a WhatsApp group, making it difficult to maintain real-time inventory accuracy. The lack of a structured digital system meant that essential resources were either underutilized or went unnoticed.</p>
+  </section>
+
+  <!-- Research & Empathy -->
+  <section class="container my-5">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h2>Understanding the Users</h2>
+        <p>We conducted in-depth user research, including interviews with volunteers at Seraj Society, to identify key pain points. Findings revealed that:</p>
+        <ul>
+          <li>Volunteers struggled to track available inventory, leading to inefficiencies in distribution.</li>
+          <li>There was no way to categorize or filter items, making it time-consuming to find needed supplies.</li>
+          <li>The director, who handled most logistics, was overburdened with managing records manually.</li>
+        </ul>
+        <p>Through empathy mapping, we identified that the core needs of the users were:</p>
+        <ul>
+          <li>An easy-to-use system with minimal learning curve.</li>
+          <li>Clear tracking of available and checked-out inventory.</li>
+          <li>Access to item history to prevent overstocking or duplicate requests.</li>
+        </ul>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="Images/research-process.png" class="img-fluid" alt="Research Process">
+      </div>
+    </div>
+  </section>
+
+  <!-- Ideation & Wireframing -->
+  <section class="container-fluid bg-dark text-white py-5">
+    <div class="container text-center">
+      <h2>Designing the Solution</h2>
+      <p>Through iterative wireframing and prototyping in Figma, we developed an inventory system that prioritizes accessibility, efficiency, and real-time updates.</p>
+      <p>The core features included:</p>
+      <ul>
+        <li><strong>QR Scanning:</strong> To quickly add and remove items from inventory.</li>
+        <li><strong>Visual Categorization:</strong> Items organized into predefined categories for easier browsing.</li>
+        <li><strong>Check-in/Check-out System:</strong> Volunteers could track who had taken an item and when it was returned.</li>
+      </ul>
+      <img src="Images/wireframes.png" class="img-fluid mt-3" alt="Wireframes">
+    </div>
+  </section>
+
+  <!-- User Testing & Iteration -->
+  <section class="container my-5 p-4 shadow">
+    <h2 class="text-center">User Testing &anp; Refinements</h2>
+    <p>We conducted usability testing sessions with volunteers and staff to evaluate the prototype. Key insights led to the following refinements:</p>
+    <ul>
+      <li>Simplified UI to reduce cognitive load.</li>
+      <li>Increased button sizes for easier interaction on mobile devices.</li>
+      <li>Integrated search and filtering to allow quick item look-up.</li>
+      <li>Added color-coded labels for item status (e.g., available, reserved, checked-out).</li>
+    </ul>
+    <p>These changes improved the overall user experience, making the system more intuitive and efficient.</p>
+  </section>
+
+  <!-- Final UI Design -->
+  <section class="container my-5 p-4 bg-light rounded shadow">
+    <h2 class="text-center">Final UI Design</h2>
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <img src="Images/final-ui.png" class="img-fluid" alt="Final UI">
+      </div>
+      <div class="col-md-6">
+        <p>Our final product is an intuitive, mobile-friendly digital inventory system with:</p>
+        <ul>
+          <li>Real-time tracking and status updates.</li>
+          <li>Automated low-stock alerts to notify when supplies need replenishing.</li>
+          <li>A user-friendly dashboard providing a snapshot of available inventory.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Conclusion -->
+  <section class="container my-5 text-center">
+    <h2>Impact &amp; Future Considerations</h2>
+    <p>Illumiventory successfully transformed an inefficient manual process into a structured digital solution, significantly improving tracking and reducing administrative burden.</p>
+    <p>Future iterations may include:</p>
+    <ul>
+      <li>AI-powered inventory suggestions based on usage trends.</li>
+      <li>Automated notifications for expiring or low-stock items.</li>
+      <li>Integration with donation tracking for automated reporting.</li>
+    </ul>
+    <p>With further development, Illumiventory has the potential to be implemented across various small non-profits, improving efficiency and resource distribution.</p>
+  </section>
+</body>
+
+  <!-- Footer -->
+  <footer class="footer bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 Natasha Barekman | <a href="contact.html" class="text-light">Contact</a></p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</html>
