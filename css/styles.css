@@ -606,93 +606,6 @@ body.resume-page {
     line-height: 1.5;
 }
 
-/* Blog Page */
-.blog-header {
-    background: url('../Images/Header Backgrounds/header-background-5.jpg') no-repeat bottom center/cover;
-}
-
-body.blog-page {
-  background: url('../Images/Body Backgrounds/body-background-4.png') no-repeat;
-  background-position: 0px 80vh;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-}
-
-/* Blog Card Styles */
-.blog-card {
-  margin-bottom: 20px;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.blog-card:hover {
-  transform: scale(1.02);
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
-}
-
-.blog-card-header {
-  background-color: var(--background-dark);
-  color: var(--text-color);
-  padding: 15px;
-  border-left: 4px solid transparent;
-  transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.blog-card-header[aria-expanded="true"] {
-  background-color: var(--primary-color);
-  color: var(--text-color);
-}
-
-.blog-card-header[aria-expanded="false"] {
-  background-color: var(--background-light);
-  border-left: 4px solid transparent;
-  box-shadow: none;
-}
-
-.blog-card-button {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  font-size: 1.2rem;
-  color: var(--text-color);
-  text-decoration: none;
-  border: none;
-  background: none;
-  padding: 0;
-  transition: color 0.3s ease;
-}
-
-.blog-card-button:hover {
-  color: var(--accent-color);
-}
-
-.blog-card-header[aria-expanded="true"] .fa-chevron-down {
-  transform: rotate(180deg);
-  transition: transform 0.3s ease;
-}
-
-.blog-card-header[aria-expanded="false"] .fa-chevron-down {
-  transform: rotate(0deg);
-  transition: transform 0.3s ease;
-}
-
-.blog-card-body {
-  padding: 20px;
-  color: var(--text-color);
-}
-
-.blog-img {
-  max-height: 400px;
-  max-width: 90%;
-  margin: 0 auto;
-  display: block;
-  object-fit: cover;
-  border-radius: 8px;
-  transition: box-shadow 0.3s ease;
-}
-
 /* Contact Page */
 body.contact-page {
   background: url('../Images/Body Backgrounds/body-background-3.png') no-repeat;
@@ -1054,7 +967,9 @@ footer {
   }
 
   /* Portfolio Sub Page */
-
+	body.illumiventory-page {
+ 		background: url('../Images/Body Backgrounds/body-background-2.png') no-repeat;
+	}
 	
   /* About Page Adjustments */
   .about-content img {
