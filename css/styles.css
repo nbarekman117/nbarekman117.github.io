@@ -472,6 +472,10 @@ body.illumiventory-page {
   box-shadow: 0 0 10px var(--accent-glow);
 }
 
+/* Limit content width for illumiventory sections */
+.illumiventory-page .container {
+  max-width: 900px;
+}
 /* Section Styling */
 .illumiventory-page {
     background-color: var(--background-grey);
@@ -479,7 +483,6 @@ body.illumiventory-page {
     padding: 60px 40px;
     margin: 50px auto;
     border-radius: 15px;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -513,13 +516,11 @@ body.illumiventory-page {
     width: 100%;
     max-width: 600px;
     border-radius: 12px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .illumiventory-page img:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 15px var(--accent-glow);
 }
 
 .illumiventory-cta {
