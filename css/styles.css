@@ -655,11 +655,16 @@ body.resume-page {
 
 /* Resume Table Styling */
 .table {
-    background-color: rgba(255, 255, 255, 0.05);
+    margin-left: auto;
+    margin-right: auto;
+	background-color: rgba(255, 255, 255, 0.05);
     color: var(--text-color);
     border-radius: 12px;
     box-shadow: var(--background-grey);
     overflow: hidden;
+	border: none;
+	width: 80%;
+
 }
 
 .table th {
@@ -674,9 +679,10 @@ body.resume-page {
 }
 
 .table-hover tbody tr:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.02);
 	color: var(--text-color);
     transition: background-color 0.3s ease-in-out;
+	border: none;
 }
 
 /* Resume Skills Section */
