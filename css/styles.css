@@ -658,14 +658,13 @@ body.resume-page {
     background-color: rgba(255, 255, 255, 0.05);
     color: var(--text-color);
     border-radius: 12px;
-    box-shadow: var(--primary-glow);
+    box-shadow: var(--background-grey);
     overflow: hidden;
 }
 
 .table th {
-    background-color: var(--primary-color);
+    background-color: var(--background-grey);
     color: var(--text-color);
-    text-shadow: 0 0 8px var(--primary-glow);
     border: none;
 }
 
@@ -675,7 +674,7 @@ body.resume-page {
 }
 
 .table-hover tbody tr:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.2);
 	color: var(--text-color);
     transition: background-color 0.3s ease-in-out;
 }
