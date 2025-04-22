@@ -668,7 +668,6 @@ body.resume-page {
 }
 
 .table th {
-    background-color: var(--background-grey);
     color: var(--text-color);
     border: none;
 }
