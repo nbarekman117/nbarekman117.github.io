@@ -685,6 +685,18 @@ body.resume-page {
 	border: none;
 }
 
+.col-course {
+  width: 20%;
+}
+
+.col-skills {
+  width: 65%;
+}
+
+.col-grade {
+  width: 15%;
+}
+
 /* Resume Skills Section */
 .resume-card {
     background: var(--background-grey);
