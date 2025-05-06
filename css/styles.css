@@ -446,8 +446,8 @@ body.portfolio-page {
   padding: 0;
 }
 
-/* Illumiventory Case Study Page */
-.illumiventory-header {
+/* Subpages */
+.portfolio-subpage-header {
   background: url('../Images/Header Backgrounds/header-background-3.jpg') no-repeat bottom center/cover;
   color: var(--text-color);
   text-align: center;
@@ -455,8 +455,8 @@ body.portfolio-page {
   box-shadow: 0 0 10px var(--accent-glow);
 }
 
-/* Illumiventory Page Background */
-body.illumiventory-page {
+/* Portfolio Subpage Page Background */
+body.portfolio-subpage {
   background: url('../Images/Body Backgrounds/body-background-3.png') no-repeat;
   background-position: 0px 80vh;
   background-size: cover;
@@ -464,7 +464,7 @@ body.illumiventory-page {
   padding: 0;
 }
 
-.illumiventory-header {
+.portfolio-subpage-header {
   background: url('../Images/Header Backgrounds/header-background-2.jpg') no-repeat bottom center/cover;
   color: var(--text-color);
   text-align: center;
@@ -472,21 +472,21 @@ body.illumiventory-page {
   box-shadow: 0 0 10px var(--accent-glow);
 }
 
-/* Limit content width for illumiventory sections */
-.illumiventory-page .container {
-  max-width: 900px;
+/* Limit content width for subpage sections */
+.max-content-width {
+	max-width: 60%;
 }
+
 /* Section Styling */
-.illumiventory-page {
+.portfolio-subpage {
     background-color: var(--background-grey);
     color: var(--text-color);
     padding: 60px 40px;
-    margin: 50px auto;
     border-radius: 15px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.illumiventory-page h2 {
+.portfolio-subpage h2 {
     margin: 0 0 15 0;
 }
 
@@ -494,41 +494,44 @@ body.illumiventory-page {
 	background-color: var(--background-grey);
 }
 
-.subpage-section ul {
+.portfolio-subpage-section {
+	padding-bottom: 30px;
+}
+
+.portfolio-subpage-section ul {
     list-style: none;
     padding-left: 20px;
 }
 
-.subpage-section ul li {
+.portfolio-subpage-section ul li {
     padding: 8px 0;
     position: relative;
     color: var(--text-color);
 }
 
-.subpage-section ul li::before {
+.portfolio-subpage-section ul li::before {
     content: "✔";
     font-weight: bold;
     color: var(--accent-color);
     margin-right: 10px;
 }
 
-.subpage-section img {
+.portfolio-subpage-section img {
     width: 100%;
-    max-width: 600px;
     border-radius: 12px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-.illumiventory-page img:hover {
-    transform: scale(1.05);
+.portfolio-subpage img:hover {
+    transform: scale(1.01);
 }
 
-.illumiventory-cta {
+.portfolio-subpage-cta {
     text-align: center;
     margin-top: 50px;
 }
 
-.illumiventory-cta .btn {
+.portfolio-subpage-cta .btn {
     font-size: 1.3rem;
     padding: 15px 30px;
     border-radius: 50px;
@@ -538,7 +541,7 @@ body.illumiventory-page {
     transition: all 0.3s ease-in-out;
 }
 
-.illumiventory-cta .btn:hover {
+.portfolio-subpage-cta .btn:hover {
     background: var(--secondary-color);
     transform: scale(1.1);
     box-shadow: 0 0 20px var(--secondary-glow);

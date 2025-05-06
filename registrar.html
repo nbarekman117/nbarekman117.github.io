@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio - Natasha Barekman</title>
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- Link to your custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="portfolio-subpage">
+  <!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
+	  <div class="container">
+		<a class="navbar-brand" href="index.html">Natasha Barekman</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+		  <ul class="navbar-nav">
+			<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+			<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+			<li class="nav-item active"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+			<li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+			<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+
+  <!-- Portfolio Header -->
+  <section class="universal-header portfolio-header">
+    <div class="container text-center py-5">
+      <h1>University Registrar UX Research</h1>
+      <p class="lead">Improving the UTM Registrar Website Through IA, Labeling, and Search Redesign</p>
+    </div>
+  </section>
+
+  <!-- Expanded Context & Team -->
+  <section class="container my-5 p-4 max-content-width">
+    <h2 class="text-center">Project Background</h2>
+    <p>I worked on evaluating and enhancing the UTM Office of the Registrar website. Our objective was to apply HCI methodologies to improve user experience through structural reorganization, user testing, and iterative design. The project lasted four weeks and consisted of multiple deliverables, including an IA audit, card sort, tree test, and a mid-fidelity prototype.</p>
+  </section>
+
+  <!-- Expanded Problem Section -->
+  <section class="container my-5 portfolio-subpage-section max-content-width">
+    <h2 class="text-center">The Problem</h2>
+    <p>The UTM Registrar website is a critical platform where students complete time-sensitive tasks such as registering for classes, accessing transcripts, and navigating financial forms. However, many students reported abandoning the site entirely in favor of Google due to frustrations with its layout. A detailed audit revealed the following core problems:</p>
+    <ul>
+      <li><strong>Over-nested navigation:</strong> Multiple layers of menus created decision fatigue and made resources difficult to locate quickly.</li>
+      <li><strong>Ambiguous or misleading labels:</strong> Categories such as "Petitions" or "Deregulated Fees" were not intuitive to the average undergraduate user.</li>
+      <li><strong>Unhelpful search functionality:</strong> The site defaulted to a global UofT-wide search, returning irrelevant results instead of site-specific content.</li>
+      <li><strong>Inconsistent visual hierarchy:</strong> Important content was buried or presented in dense blocks of text with little scannability.</li>
+    </ul>
+  </section>
+
+  <!-- Expanded Research & Tree Testing Section -->
+  <section class="container my-5 portfolio-subpage-section max-content-width">
+    <h2 class="text-center">Research &amp; Tree Testing Insights</h2>
+    <p>Our primary evaluative method was a 7-task tree test administered to six student participants. The tree test simulated the site's current information structure without any visual interface, allowing us to measure the effectiveness of the labeling and hierarchy alone. Key findings included:</p>
+    <ul>
+      <li><strong>Task success rates varied significantly:</strong> Only 1 of 6 participants located the UTM Grant Application correctly (17%), while all participants succeeded in locating refund and staff application pages (100%).</li>
+      <li><strong>Common misroutes:</strong> Participants frequently confused "Forms" with "Petitions," highlighting the lack of semantic distinction between them.</li>
+      <li><strong>User feedback:</strong> Post-test interviews revealed students often guessed based on label familiarity rather than actual understanding.</li>
+    </ul>
+    <p>These insights emphasized the need to streamline categories, create mutually exclusive groupings, and rewrite labels to reflect students’ mental models.</p>
+    <div class="text-center my-4">
+      <img src="Images/Registrar/tree-test-1.png" class="img-fluid" alt="Tree Test Result" />
+    </div>
+  </section>
+
+  <!-- Expanded IA Redesign Section -->
+  <section class="container my-5 portfolio-subpage-section max-content-width">
+    <h2 class="text-center">Information Architecture Overhaul</h2>
+    <p>To reimagine the IA, we conducted an open card sort with participants to see how they would group and label 25+ topics commonly found on the Registrar site. From these results, we implemented the following improvements:</p>
+    <ul>
+      <li><strong>New categories:</strong> Introduced "Tools" (e.g., Academic Calendar, GPA Calculator) and "Petitions &amp; Forms" to consolidate overlapping terms.</li>
+      <li><strong>Simplified nesting:</strong> Reduced menu depth to two levels to support quick scanning and reduce user effort.</li>
+      <li><strong>Reorganized financial content:</strong> All tuition, refunds, and payment links were unified under "Financial Matters."</li>
+    </ul>
+    <div class="row text-center">
+      <div class="col-md-6">
+        <img src="Images/Registrar/IA-current.png" class="img-fluid" alt="Original IA">
+        <p>Before: Overly complex, unclear IA</p>
+      </div>
+      <div class="col-md-6">
+        <img src="Images/Registrar/IA-final.png" class="img-fluid" alt="Revised IA">
+        <p>After: Streamlined, student-centered structure</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Expanded Labeling Strategy -->
+  <section class="container my-5 portfolio-subpage-section max-content-width">
+    <h2 class="text-center">Labeling Strategy &amp; Microcopy</h2>
+    <p>Language was the most significant barrier to navigation. Students didn’t understand academic jargon or category logic. Our solution included:</p>
+    <ul>
+      <li><strong>Descriptive labeling:</strong> Changed "Final Grades" to "GPA &amp; UofT Grading Scheme," which better reflected content.</li>
+      <li><strong>Action-oriented phrasing:</strong> Rewrote static labels like "Absence Declaration" to the clearer "Declare Absence from Courses."</li>
+      <li><strong>Clarifying context:</strong> Added one-line descriptions and optional tooltips under each subpage title for first-time users.</li>
+    </ul>
+    <p>This resulted in increased comprehension during follow-up testing and reduced misclick rates during exploratory navigation tasks.</p>
+  </section>
+
+  <!-- Expanded User Flows -->
+  <section class="container my-5 portfolio-subpage-section max-content-width">
+    <h2 class="text-center">User/Task Flows</h2>
+    <p>Using Balsamiq, we prototyped the top 3 student journeys: registration, financial aid, and submitting petitions. We focused on two for mid-fidelity testing:</p>
+    <div class="text-center my-4">
+      <img src="Images/Registrar/task-flow-1.png" class="img-fluid" alt="Summer Registration Flow">
+      <p><strong>Flow 1:</strong> Register for Summer Courses via "Registration &amp; Courses" → "Register for Summer Courses"</p>
+    </div>
+    <div class="text-center my-4">
+      <img src="Images/Registrar/task-flow-2.png" class="img-fluid" alt="Grant Application Flow">
+      <p><strong>Flow 2:</strong> Locate the UTM Grant Application via "Financial Matters" → "Loans &amp; Grants" → "UTM Grant Application"</p>
+    </div>
+    <p>Our prototype also embedded a scoped search bar on each subpage to help reduce page scanning friction and added a "Jump to" dropdown menu for dense content pages.</p>
+  </section>
+
+  <!-- Expanded Reflection -->
+  <section class="container my-5 portfolio-subpage-section max-content-width">
+    <h2 class="text-center">Outcomes &amp; Reflections</h2>
+    <p>Our redesign produced measurable improvements in both task efficiency and user satisfaction:</p>
+    <ul>
+      <li><strong>Task success:</strong> Navigation accuracy improved by 40–60% compared to baseline</li>
+      <li><strong>Confidence:</strong> Users felt more assured choosing categories based on clearer labels</li>
+      <li><strong>Clarity:</strong> Testing confirmed that new groupings and terminology reflected real user expectations</li>
+    </ul>
+    <p>This project demonstrated how small changes—like rewording a label or adjusting menu logic—can have outsized impacts on user success. It reinforced the power of participatory design, iterative testing, and plain language in complex digital systems.</p>
+	
+	  <h3 class="text-center">Refined Search Function</h3>
+		<div class="row text-center">
+		  <div class="col-md-6">
+			  <p>Original Design: Global UofT Website Search</p>
+			  <img src="Images/Registrar/search-before.png" class="img-fluid" alt="Summer Registration Flow">
+		  </div>
+		  <div class="col-md-6">
+			  <p>Revised Design: Home Page Search</p>
+			  <img src="Images/Registrar/search-after-1.png" class="img-fluid" alt="Summer Registration Flow">
+		  </div>
+		  <div class="col-md-6">
+			  <p>Revised Design: Embedded Subpage Search</p>
+		      <img src="Images/Registrar/search-after-2.png" class="img-fluid" alt="Summer Registration Flow">
+		  </div>
+		</div>
+	  
+	<h3 class="text-center">Navigation and Organization</h3>
+		<div class="text-center my-4">
+		  <p>Original Design: Global Navigation</p>
+		  <img src="Images/Registrar/navigation-before.png" class="img-fluid" alt="Summer Registration Flow">
+		</div>
+		<div class="text-center my-4">
+		  <p>Original Design: On-Page Menus</p>
+		  <img src="Images/Registrar/navigation-before-2.png" class="img-fluid" alt="Summer Registration Flow">
+		</div>
+		<div class="text-center my-4">
+		  <p>Revised Design: Global Navigation &amp; On-Page Menus</p>
+		  <img src="Images/Registrar/navigation-after.png" class="img-fluid" alt="Summer Registration Flow">
+		</div>
+	
+	  <h3 class="text-center">Footer Content</h3>
+		<div class="text-center my-4">
+		  <p>Original Design: Global Navigation</p>
+		  <img src="Images/Registrar/footer-before.png" class="img-fluid" alt="Summer Registration Flow">
+		</div>
+		<div class="text-center my-4">
+		  <p>Original Design: On-Page Menus</p>
+		  <img src="Images/Registrar/footer-after.png" class="img-fluid" alt="Summer Registration Flow">
+		</div>
+  
+	</section>
+
+	
+  <!-- Footer -->
+<footer class="footer">
+  <div class="container d-flex justify-content-between align-items-center">
+    <!-- Footer Text -->
+    <div class="footer-text">
+      <p>&copy; 2025 Natasha Barekman&nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; 
+        <a href="contact.html" class="text-light">Contact</a> &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp; 
+        <a href="docs/Portfolio_Design_and_Development_Process.pdf" class="text-light" target="_blank">Process</a>
+      </p>
+    </div>
+    <!-- Social Media Links -->
+    <div class="social-icons">
+      <a href="https://github.com/nbarekman117" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/natasha-barekman-685aa8258/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://instagram.com/tashi.barekman" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="mailto:natashabarekman@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+<script src="js/navbar.js"></script>
