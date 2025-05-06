@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio - Natasha Barekman</title>
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- Link to your custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="portfolio-subpage">
+  <!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
+	  <div class="container">
+		<a class="navbar-brand" href="index.html">Natasha Barekman</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+		  <ul class="navbar-nav">
+			<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li><li class="nav-item active"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+			<li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+			<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+
+  <!-- Portfolio Header -->
+  <section class="universal-header portfolio-header">
+    <div class="container text-center py-5">
+      <h1>My Portfolio Website</h1>
+      <p class="lead">Designing, coding, and customizing a personal site with Bootstrap</p>
+    </div>
+  </section>
+
+  <!-- Section: Information Architecture -->
+  <section class="container my-5 portfolio-subpage-section max-content-width">
+    <h2 class="text-center">Information Architecture</h2>
+    <p>I designed the global navigation to include six main links: Home, About, Portfolio, Resume, Blog, and Contact. These appear on every page via a fixed-top Bootstrap navbar. The Portfolio page uses modals for each project, while the Resume page features clearly labeled tables. Associative navigation—such as “Explore Now” buttons—directs users through the site intuitively, and the footer provides external links for email and social platforms. This structural and utility navigation ensures consistency and easy access for all users.</p>
+	<img src="Images/Portfolio Website/portfolio-ia.png" class="img-fluid rounded shadow" alt="Portfolio IA">
+
+  </section>
+
+  <!-- Section: Research -->
+  <section class="container my-5 portfolio-subpage-section max-content-width">
+    <h2 class="text-center">Design Research</h2>
+    <p>My research process involved analyzing portfolio templates from Start Bootstrap and BootstrapMade, as well as browsing Behance and Webflow for aesthetic inspiration. I created a mood board to establish a neon color palette that reflects my personal brand. I also used the Bootstrap documentation to ensure responsive components were implemented correctly, including grids, modals, cards, and tables. These insights guided both my UX decisions and technical build process.</p>
+    <img src="Images/Portfolio Website/portfolio-moodboard.png" class="img-fluid rounded shadow" alt="Portfolio Moodboard">
+  </section>
+
+  <!-- Section: Design Adjustments -->
+  <section class="container my-5 portfolio-subpage-section max-content-width">
+    <h2 class="text-center">Design Adjustments</h2>
+    <p>I iterated significantly on the site's layout. The Portfolio page evolved from text-heavy sections into a thumbnail grid with modals to improve clarity. The About page now uses a timeline for milestones. The Home page highlights skills with animated progress bars. Personal touches—like a handwritten logo and embedded video on the Contact page—add warmth and uniqueness. Animations and a disappearing navbar enhance user experience without sacrificing clarity.</p>
+  </section>
+
+  <!-- Section: Bootstrap & Customization -->
+  <section class="container my-5 portfolio-subpage-section max-content-width">
+    <h2 class="text-center">Bootstrap Implementation &amp; Responsive Design</h2>
+    <p>Throughout the site, I relied on Bootstrap's grid system, navbar, modals, tables, accordions, and progress bars. Every component was customized with CSS to match a neon aesthetic, including gradient hover effects, handwritten fonts, and dark backgrounds. Cards and buttons include subtle animations, and accessibility was supported with high-contrast color choices, alt text, and keyboard navigation compatibility. Using Bootstrap’s breakpoints and media queries, the site adjusts cleanly across desktops, tablets, and mobile devices. All visual assets were compressed and resized for fast load times and accessibility across screen types.</p>
+  </section>
+
+  <!-- Section: Accessibility -->
+  <section class="container my-5 portfolio-subpage-section max-content-width">
+    <h2 class="text-center">Usability &amp; Accessibility</h2>
+    <p>Following WCAG 2.0 standards, I included ARIA labels, alt attributes, and keyboard-friendly navigation. Font sizes scale with rem units, and all interactions provide visual feedback via hover or focus states. I conducted informal testing with peers and family to improve clarity, contrast, and navigation speed. These measures ensure that my site remains inclusive for users across a range of abilities.</p>
+	<img src="Images/Portfolio Website/portfolio-wcag.png" class="img-fluid rounded shadow" alt="Portfolio WCAG Checker">
+  </section>
+
+
+	
+  <!-- Footer -->
+<footer class="footer">
+  <div class="container d-flex justify-content-between align-items-center">
+    <!-- Footer Text -->
+    <div class="footer-text">
+      <p>&copy; 2025 Natasha Barekman&nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; 
+        <a href="contact.html" class="text-light">Contact</a> &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp; 
+        <a href="docs/Portfolio_Design_and_Development_Process.pdf" class="text-light" target="_blank">Process</a>
+      </p>
+    </div>
+    <!-- Social Media Links -->
+    <div class="social-icons">
+      <a href="https://github.com/nbarekman117" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/natasha-barekman-685aa8258/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://instagram.com/tashi.barekman" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="mailto:natashabarekman@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+</footer>
+
+	<!-- Bootstrap JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+<script src="js/navbar.js"></script>

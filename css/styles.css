@@ -40,9 +40,25 @@ h3 {
   font-family: var(--font-family);
   color: var(--primary-color);
   text-shadow: 0 0 8px var(--primary-color);
+  margin: 0 0 15px 0;
 }
 
-p, a {
+h4 {
+  font-family: var(--font-family);
+  color: var(--accent-color);
+  font-size: 1.4rem;
+  text-shadow: 0 0 1px var(--text-color);
+  text-align: center;
+  margin: 50px 0 15px 0;
+}
+
+p {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+a {
   font-family: var(--font-family);
   color: var(--text-color);
 }
@@ -226,7 +242,7 @@ body.home-page {
   padding: 0;
 }
 
-.home-content {tim
+.home-content {
   background: transparent;
   padding: 30px 20px;
   margin: 0 auto;
